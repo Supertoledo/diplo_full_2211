@@ -2,11 +2,17 @@ Verduras :
 Cebollas, papas, tomate, lechuga, ajo, perejil, laurel
 
 Pan: 
- blanco, integral, salvado
+Blanco, integral, salvado
 
 Carnes: 
 Pollo, cerdo, vacuno
 
 Bebidas : 
 Cerveza negra, Malbec, agua saborizada
+
+Frutas : 
+Manzanas, peras, duraznos
+
+
+
 
