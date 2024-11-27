@@ -1,5 +1,5 @@
 Verduras :
-Cebollas, papas, tomate, rucula, ajo, perejil, laurel
+Cebollas, papas, tomate, lechuga, ajo, perejil, laurel
 
 Pan: 
  blanco, integral, salvado
