@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Formulario</title>
+  </head>
+  <body>
+    <h2>Completar el siguiente formulario</h2>
+    <form action="" method="">
+      <p>
+        <label for="nom">Nombre : </label>
+        <input type="text" name="nom" placeholder="Nombre" />
+      </p>
+      <p>
+        <label for="apellido">Apellido : </label>
+        <input type="text" name="apellido" placeholder="Apellido" />
+      </p>
+      <p>
+        <label for="pass">Contraseña : </label>
+        <input type="password" name="pass" placeholder="* * * * * * * *" />
+      </p>
+      <label for="sexo">Sexo</label>
+      <ul>
+        <li>
+          <input type="radio" name="sexo" value="Hombre" />
+          <label>Hombre</label>
+        </li>
+        <li>
+          <input type="radio" name="sexo" value="Mujer" />
+          <label>Mujer</label>
+        </li>
+      </ul>
+      <label>Hobies</label>
+      <ul>
+        <li>
+          <input
+            type="checkbox"
+            name="hobbies"
+            value="bailar"
+            id="bailar" /><label for="bailar">Bailar</label>
+        </li>
+        <li>
+          <input type="checkbox" name="hobbies" value="cantar" id="cantar" />
+          <label for="cantar">Cantar</label>
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="hobbies"
+            value="nadar"
+            id="nadar" /><label for="nadar">Nadar</label>
+        </li>
+        <li>
+          <input
+            type="checkbox"
+            name="hobbies"
+            value="correr"
+            id="correr" /><label>Correr</label>
+        </li>
+      </ul>
+      <p>
+        <label for="titulo">Titulo</label>
+        <select name="titulo">
+          <option value="primario">Primario</option>
+          <option value="secundario">Secundario</option>
+          <option value="terciario">Terciario</option>
+          <option value="universitario">Universitario</option>
+        </select>
+      </p>
+      <p>
+        <a href="./cv.html" target="_blank">Cargar Curriculo</a>
+      </p>
+      <p>
+        <label for="comentarios">Comentarios</label>
+        <textarea
+          name="comentarios"
+          placeholder="Escriba su comentario"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </p>
+    </form>
+  </body>
+</html>
