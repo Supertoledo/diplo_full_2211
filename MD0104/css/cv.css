@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    width: 50%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: rgba(237, 232, 226, 0.655);
+}
+
+.tituloPrincipal {
+    background-color: black;
+    padding: 25px;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+.selfie {
+    text-align: center;
+}
+.selfie img {
+    width: 450px;
+    height: 450px;
+}
+
+.categorias {
+    background-color: aquamarine;
+
+    padding: 25px;
+    text-align: center;
+}
+.datos {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.preferencias {
+    padding: 20px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    text-align: center;
+}
+.listados {
+    text-align: center;
+}
+.listados h3 {
+    color: antiquewhite;
+    padding: 10px;
+    background-color: blue;
+}
+.items {
+    list-style: none;
+}
+.items li {
+    font-size: 20px;
+    font-weight: bold;
+}
+.perfil {
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+.perfil span {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link {
+    font-size: 15px;
+    text-align: center;
+}
