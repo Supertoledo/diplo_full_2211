@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    width: 75%;
+    margin: auto;
+    font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background: #a4c9d6;
+}
+
+h2,
+h3 {
+    border-radius: 10px 0;
+}
+
+.tituloPrincipal {
+    background-color: black;
+    padding: 25px;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+}
+.selfie {
+    text-align: center;
+}
+.selfie img {
+    width: 450px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 20% 0% 20% 20%;
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.5);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.5);
+    box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.5);
+}
+
+.categorias {
+    width: 25%;
+    margin: 25px auto;
+    background-color: #0000ff;
+    color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+}
+
+.datos {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.preferencias {
+    width: 35%;
+    margin: 15px auto;
+    padding: 20px;
+    color: antiquewhite;
+    background-color: blueviolet;
+    text-align: center;
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+}
+
+.listados {
+    text-align: center;
+}
+.listados h3 {
+    width: 35%;
+    margin: 15px auto;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: blue;
+    -webkit-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    -moz-box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+    box-shadow: 12px 10px 5px 0px rgba(77, 78, 107, 0.32);
+}
+
+.items {
+    list-style: none;
+}
+.items li {
+    font-size: 20px;
+    font-weight: bold;
+}
+.perfil {
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
+.perfil span {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link {
+    font-size: 15px;
+    text-align: center;
+}
