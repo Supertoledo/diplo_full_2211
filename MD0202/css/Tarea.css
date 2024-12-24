@@ -1,0 +1,69 @@
+.html {
+    font-size: 16px;
+}
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+}
+h2 {
+    color: #333;
+    text-align: center;
+}
+h2:hover {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    color: #f00;
+}
+.caja {
+    width: 10rem;
+    height: 10rem;
+    border: 0.1rem solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja:hover {
+    font-size: 2.4rem;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+
+.ejercicio1 {
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ejercicio2 {
+    width: 30rem;
+    height: 30rem;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: center;
+    align-items: center;
+}
+
+.ejercicio3 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
