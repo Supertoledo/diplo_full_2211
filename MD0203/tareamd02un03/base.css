@@ -38,10 +38,6 @@ aside {
 }
 
 @media (max-width: 800px) {
-	#contenedor {
-		display: flex;
-		flex-direction: column;
-	}
 	nav {
 		background-color: #ffcc66;
 		width: 100%;
@@ -58,6 +54,7 @@ aside {
 		margin: auto;
 		padding: 10px;
 		border-top: 1px solid #000;
+		box-sizing: border-box;
 	}
 
 	p {
