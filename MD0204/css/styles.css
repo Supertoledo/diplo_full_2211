@@ -1,0 +1,36 @@
+html {
+    font-size: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(188, 161, 214, 0.302);
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-shadow: -4px -1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.logo span {
+    font-size: 2rem;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+.navegacion {
+    font-weight: 700;
+}
+.tamaño {
+    max-width: 64rem;
+    height: 45rem;
+}
