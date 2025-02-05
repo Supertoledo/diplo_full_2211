@@ -1,0 +1,75 @@
+html {
+    font-size: 10px;
+}
+
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #de0e6897;
+    margin: 25rem 15rem;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+p {
+    color: #000;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.contenedor {
+    max-width: 120rem;
+    height: 50vh;
+    margin: 0 auto;
+}
+.cajas {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+}
+.verde,
+.azul,
+.rojo {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.verde {
+    background-color: green;
+}
+.azul {
+    background-color: blue;
+}
+.rojo {
+    background-color: red;
+}
+.contador {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .cantidades {
+        margin-bottom: 2rem;
+    }
+    .cantidad {
+        font-size: 2rem;
+        font-weight: 700;
+        border: 0.1rem solid #000;
+        padding: 0.5rem;
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedor {
+        margin: -15rem 0;
+    }
+}
